@@ -46,15 +46,3 @@ class ReviewAdmin(admin.ModelAdmin):
     search_fields = ('author', 'pub_date',)
     list_filter = ('author', 'pub_date',)
     empty_value_display = '-empty-'
-
-
-# @admin.register(Comment)
-# class ReviewAdmin(admin.ModelAdmin):
-    # list_display = (
-        # 'author',
-        # 'review',
-        # 'pub_date',
-    # )
-    # search_fields = ('author', 'pub_date',)
-    # list_filter = ('author', 'pub_date',)
-    # empty_value_display = '-empty-'
